@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 70px;
+    background-color: #00091b;
+    color: rgb(234, 244, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo {
+    height: 45px;
+    width: 110px;
+}
+.logo {
+    height: 45px;
+    width: 110px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    
+}
+.border {
+   border: 1.5px solid transparent; 
+}
+.border:hover {
+    border: 1.5px solid rgb(236, 236, 241);
+}
+/** box2 **/
+.add-first{
+    color: azure;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+}
+
+/** box3**/
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkorange;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: lightgray;
+    width: 47px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+   width: 100%;
+   font-size: 1rem; 
+   border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+.navsearch:hover{
+    border: 2px solid orangered;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size: 0.90rem;
+    font-weight: 650;
+}
+/**box6**/
+.navcart{
+    font-size: 0.86rem;
+    font-weight: 750;
+}
+.navcart i{
+    font-size: 23px;
+}
+/**panel**/
+.panel{
+    height: 45px;
+    background-color: #020220da;
+    display: flex;
+    color: cornsilk;
+    align-items: center;
+    justify-content: space-around;
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+}
+.primeday{
+    align-items: center;
+}
+/**hero section**/
+.herosec {
+    background-image: url("hero1.jpg");
+    background-size: cover;
+    height: 300px;
+    
+}
+/** box section**/
+.shopsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(27, 80, 116, 0.921);
+}
+.box{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 5px;
+    
+}
+.boximg{
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 11px;
+}
+.boxcon{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcon p{
+    color: #007185;  
+}
+.boximg2{
+    height: 290px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+.boximg4{
+    height: 290px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+/** Footer**/
+footer{
+    margin-top: 10px;
+}
+.footpanel1{
+     background-color: #020220da;
+     color: white;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 0.8rem;
+}
+.footpanel2{
+    background-color: #00091b;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.footpanel3 {
+    background-color: #00091b;
+    color: white;
+    border-top: 0.3px solid rgba(255, 255, 255, 0.11);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 45px;
+    width: 110px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    
+}
+.footpanel4{
+    background-color: #020220da;
+    color: white;
+    height: 70px;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.pages{
+    
+    padding-top: 20px;
+}
+.copyright{
+   padding-top: 6px;
+}
